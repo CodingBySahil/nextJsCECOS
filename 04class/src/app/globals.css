@@ -2,24 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@layer base{
+    .mainHeader {@apply text-5xl text-center text-white bg-teal-500 p-6 font-medium}
+    /* h1 {@apply text-9xl}
+    h2 {@apply bg-red-700}
+    h3 {@apply bg-green-700}
+    h4 {@apply bg-yellow-500} */
 }
 
 
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
