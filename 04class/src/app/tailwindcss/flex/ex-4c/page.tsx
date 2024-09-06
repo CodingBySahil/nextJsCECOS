@@ -23,7 +23,7 @@ const Page = () => {
             <h1 className="text-2xl font-bold text-gray-700">Vedio Production</h1>
             <p className="text-center my-5">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
-              est adipisci officiis laboriosam 
+              est adipisci officiis laboriosam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque commodi natus doloremque veniam ratione. Aperiam sint quaerat itaque blanditiis tenetur dolorum fugit ullam in sunt iure. Sunt eligendi labore ullam.
             </p>
           </div>
           <div className="bg-white p-2 rounded-2xl flex flex-col justify-center items-center">
